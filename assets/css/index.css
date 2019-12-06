@@ -60,8 +60,12 @@ h1 {
     text-shadow: 2px 2px lightgray;
 }
 
+.about-me-content-container{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
 .profile-picture {
-    float: left;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -69,10 +73,18 @@ h1 {
     box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.75);
 }
 
-.about-me-desc{  
+.about-me-desc{
+    margin-left: 10%;  
     font-size: 18px;
     line-height: 2;
     color: #444649;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
 }
 
 /* Typing effect styling */

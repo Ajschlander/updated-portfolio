@@ -29,15 +29,29 @@ $("#about-nav-link").click(function () {
 // Scroll to portfolio section when portfolio is clicked
 $("#portfolio-nav-link").click(function () {
     $('html,body').animate({
-        scrollTop: $("").offset().top
+        scrollTop: $(".portfolio-container").offset().top
     },
         'slow');
 });
 
 // Scroll to contact section when contact is clicked
-$("#content-nav-link").click(function () {
+$("#contact-nav-link").click(function () {
     $('html,body').animate({
-        scrollTop: $("").offset().top
+        scrollTop: $(".contact-container").offset().top
     },
         'slow');
+});
+
+// Make navbar fixed at certain page height
+$(window).scroll(function () {
+    //if you hard code, then use console
+    //.log to determine when you want the 
+    //nav bar to stick.  
+    console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 969) {
+        $('.navbar').addClass('fixed');
+    }
+    if ($(window).scrollTop() < 300) {
+        $('.navbar').removeClass('fixed');
+    }
 });
