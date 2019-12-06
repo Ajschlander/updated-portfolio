@@ -55,6 +55,7 @@ h1 {
     color: #444649;
     font-weight: bold;
     margin-bottom: 4rem;
+    text-shadow: 2px 2px lightgray;
 }
 
 /* Typing effect styling */
@@ -89,6 +90,10 @@ h1 {
     }
 }
 /* navbar css */
+.navbar {
+    border-bottom: 5px solid teal;
+}
+
 nav {
     width: 100%;
     margin: 0 auto;
@@ -119,5 +124,6 @@ nav ul li a:before {
 }
 nav ul li a:hover {
   color: #555;
+  border-bottom: 1px solid white;
 }
 
