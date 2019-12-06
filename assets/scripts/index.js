@@ -1,3 +1,7 @@
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
+
 VANTA.CELLS({
     el: ".home-content",
     color1: 0x194a59,

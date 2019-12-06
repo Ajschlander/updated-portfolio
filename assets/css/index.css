@@ -25,7 +25,39 @@ h1 {
    align-items: center;
 }
 
-/* DEMO-SPECIFIC STYLES */
+.view-button{
+    color: white;
+    background: none;
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    position: relative;
+    margin-top: 1rem;
+    font-size: 16pt;
+    padding: 12px 20px 12px 20px;
+}
+
+.view-button:hover {
+    background: white;
+    color: black;
+}
+
+.about-me-container {
+    margin-top: 2rem;
+}
+
+.about-me-title{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #444649;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+/* Typing effect styling */
 .typewriter h1{
     color: rgb(227, 27, 109);
     overflow: hidden;
@@ -56,3 +88,36 @@ h1 {
         border-color: rgb(227, 27, 109);
     }
 }
+/* navbar css */
+nav {
+    width: 100%;
+    margin: 0 auto;
+    background: #24272E;
+    padding: 1px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
