@@ -1,6 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -14,7 +15,6 @@ h1 {
 
 .main {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
     color: white;
 }
 
@@ -45,17 +45,34 @@ h1 {
 }
 
 .about-me-container {
-    margin-top: 2rem;
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.about-me-title{
-    font-family: 'Raleway', sans-serif;
+.title{
     text-align: center;
     text-transform: uppercase;
     color: #444649;
     font-weight: bold;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     text-shadow: 2px 2px lightgray;
+}
+
+.profile-picture {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 2.5%;
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.75);
+}
+
+.about-me-desc{  
+    font-size: 18px;
+    line-height: 2;
+    color: #444649;
 }
 
 /* Typing effect styling */
@@ -124,6 +141,6 @@ nav ul li a:before {
 }
 nav ul li a:hover {
   color: #555;
-  border-bottom: 1px solid white;
+  cursor: pointer;
 }
 
