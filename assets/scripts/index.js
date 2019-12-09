@@ -32,6 +32,14 @@ $("#home-nav-link").click(function () {
         'slow');
 });
 
+// Button to scroll to my work on landing
+$("#my-work-button").click(function () {
+    $('html,body').animate({
+        scrollTop: $(".portfolio-container").offset().top -185
+    },
+        'slow');
+});
+
 // Scroll to about section when about is clicked
 $("#about-nav-link").click(function () {
     $('html,body').animate({
