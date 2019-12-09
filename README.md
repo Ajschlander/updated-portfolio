@@ -3,8 +3,9 @@
 My own personal portfolio to show potential employers everything about me!
 
 # Screenshots
-![Landing View](assets/pics/portfolio&#32;landing&#32;ss.png);
-![My Work View](assets/pics/my&#32;work&#32;portfolio.png);
+![Landing View](assets/pics/portfolio&#32;landing&#32;ss.png)
+![My Work View](assets/pics/my&#32;work&#32;portfolio.png)
+![About me](assets/pics/about&#32;me&#32;portfolio.png)
 
 # Deployment
 
