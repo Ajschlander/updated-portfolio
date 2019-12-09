@@ -35,7 +35,7 @@ $("#home-nav-link").click(function () {
 // Scroll to about section when about is clicked
 $("#about-nav-link").click(function () {
     $('html,body').animate({
-        scrollTop: $(".about-me-container").offset().top
+        scrollTop: $(".about-me-container").offset().top -185
     },
         'slow');
 });
@@ -43,7 +43,7 @@ $("#about-nav-link").click(function () {
 // Scroll to portfolio section when portfolio is clicked
 $("#portfolio-nav-link").click(function () {
     $('html,body').animate({
-        scrollTop: $(".portfolio-container").offset().top
+        scrollTop: $(".portfolio-container").offset().top -185
     },
         'slow');
 });
@@ -51,7 +51,7 @@ $("#portfolio-nav-link").click(function () {
 // Scroll to contact section when contact is clicked
 $("#contact-nav-link").click(function () {
     $('html,body').animate({
-        scrollTop: $(".contact-container").offset().top
+        scrollTop: $(".contact-container").offset().top -185
     },
         'slow');
 });

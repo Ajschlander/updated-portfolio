@@ -113,6 +113,7 @@ textarea:focus, input:focus {
 .contact-container {
     background: #252934;
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .form-container {
@@ -247,4 +248,38 @@ nav ul li a:hover {
     font-size: 11pt;
     margin-left: .5rem;
     margin-right: .5rem;
+}
+
+.project-button {
+    outline: none;
+    cursor: pointer;
+    font-size: 12pt;
+    color: lightgreen;
+    background: none;
+    border-radius: 12px;
+    border: 1px solid lightgreen;
+    padding: 12px 20px;
+    margin-left: .5rem;
+    margin-bottom: 1rem;
+}
+
+.project-button:hover {
+    background: lightgreen;
+    color: white;
+    transition: .5s ease;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
+
+.highlight {
+    color: #E31B6D;
+}
+
+footer {
+    background: #1B242F;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
