@@ -1,3 +1,17 @@
+// CUSTOM JAVASCRIPT
+const nameInputEl = document.getElementById("name-input");
+const emailInputEl = document.getElementById("email-input");
+const messageInputEl = document.getElementById("message-input");
+const sendBtnEl = document.getElementById("send-btn");
+
+const clearContactForm = () => {
+    nameInputEl.value = "";
+    emailInputEl.value = "";
+    messageInputEl.value = "";
+}
+
+sendBtnEl.addEventListener("click", clearContactForm);
+
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
 }
@@ -44,10 +58,6 @@ $("#contact-nav-link").click(function () {
 
 // Make navbar fixed at certain page height
 $(window).scroll(function () {
-    //if you hard code, then use console
-    //.log to determine when you want the 
-    //nav bar to stick.  
-    console.log($(window).scrollTop())
     if ($(window).scrollTop() > 969) {
         $('.navbar').addClass('fixed');
     }

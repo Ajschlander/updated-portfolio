@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AustinWebDev</title>
 
     <script src="https://kit.fontawesome.com/2ceed62c3c.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
 
@@ -48,21 +50,35 @@
     <div class="portfolio-container">
         <h1 class="title">My work</h1>
         <!-- populate from github repos -->
+        <div class="container justify-content-md-center">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card text-center">
+                        <img class="card-img" src="assets/images/codingbackground1.jpg" alt="">
+                        <div class="card-content">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-info">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
     <div class="contact-container">
         <h1 class="contact-title">Contact me!</h1>
         <div class="form-container">
             <div class="input-container">
-                <input class="input-field" type="text" placeholder="Name">
+                <input class="input-field" type="text" placeholder="Name" id="name-input">
             </div>
             <div class="input-container">
-                <input class="input-field" type="text" placeholder="Email">
+                <input class="input-field" type="text" placeholder="Email" id="email-input">
             </div>
             <div class="textarea-input-container">
-                <textarea class="message-field" cols="30" rows="10" placeholder="Message"></textarea>
+                <textarea class="message-field" cols="30" rows="10" placeholder="Message" id="message-input"></textarea>
             </div>
-            <button class="send-button">Send</button>
+            <button class="send-button" id="send-btn">Send</button>
         </div>
     </div>
     
